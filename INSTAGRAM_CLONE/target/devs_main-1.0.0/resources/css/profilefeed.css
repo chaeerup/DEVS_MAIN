@@ -1,0 +1,165 @@
+#like_count{
+	margin : 0 0 3px 10px;
+}
+
+
+.thumbnail{
+	position: relative;
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	margin: 10px;
+}
+
+.fit{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	object-fit : cover;
+}
+.play-button{
+	position: absolute;
+	top:100px;
+	left:100px;
+	width:100px;
+	height:100px; 
+}
+
+.bg-modal{
+	width:100%;
+	height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+	position: fixed;
+	top:0;
+	left:0;
+	display:flex;
+    justify-content: center;
+    align-items: center;
+    display:none;
+}
+.modal-box{
+	width: auto;
+	height: 75%;
+	background-color: white;
+	border-radius: 5px;
+	position: fixed;
+}
+
+.close{
+	position: fixed;
+	top : 10px;
+	right: 15px;
+	font-size: 40px;
+	transform: rotate(45deg);
+	cursor: pointer;
+	color: white;
+}
+.div-left{
+	display:flex;
+	position: relative;
+	width: auto;
+	height: 100%;
+	float: left;
+	justify-content: center;
+	align-items:center;	
+	overflow: auto;
+}
+.div-right{
+	display : block;
+	width: 350px;
+	height: 100%;
+	float: right;
+}
+
+#media{
+	height: 100%;
+	display:flex; 
+	flex-direction:column;
+	justify-content:center;
+}
+#media>img, #media>video{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.reply{
+	position: relative;
+	height: auto;
+	
+}
+#user-info{
+	display: inline-block;
+	height: 72px;
+	padding: 16px 0 10px 16px;
+	width:335px;
+}
+#board_writer{
+	font-size: 18px;
+	color: gray;
+	display: inline-block;
+}
+
+#board_writer_img{
+	display: block;
+	float:left;
+	margin-right: 10px;
+}
+#writer_profile_image{
+	border-radius: 70%;
+	width: 40px;
+	height: 40px;
+}
+.re-member-pic{
+	border-radius:70%;
+	width: 35px;
+	height: 35px;
+}
+#buttons{
+	margin-left:16px;
+}
+
+#board-content{
+	padding: 10px 16px 10px 16px;
+	height: 10%;
+	overflow: auto;
+}
+
+img[class="delete"]{
+	width:20px; height:20px; float: right; margin:5px 0 0 5px;
+}
+img[class="update"]{
+	width:20px; height:20px; float: right; margin:5px 0 0 5px;
+}
+textarea[name="reply_content"]{
+	padding:0; width: 85%; display: unset;
+}
+
+#board_writer{
+	position:absolute; font-weight:bold; text-decoration:none;
+}
+
+#replysubmitbutton{
+	float: right; height: 50px; width: 15%; border-radius: unset; background-color: #2f2f2f; color: white;
+}
+#replyList{
+	overflow: auto; height: 310px;
+	padding: 0 15px;
+}
+
+.re-member-pic{
+	width: 30px;
+	height: 30px;
+	margin : 0 8px 0 0;
+	float:left;
+}
+
+.re-member-id{
+	margin: 10px 10px 10px 0 ;
+	display: block;
+}
+.re-reply-content{
+	margin: 3px 15px 0 10px;
+}
+.fit:hover{
+    transform: scale(1.075);
+}
